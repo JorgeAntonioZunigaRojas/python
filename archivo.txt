@@ -1,0 +1,5 @@
+Comienzo del texto1
+Primera linea del archivo
+Segunda linea del archivo
+Otra linea mas al archivooo...!!!
+Fin del comienzo del texto
