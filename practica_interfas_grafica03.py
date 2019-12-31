@@ -1,0 +1,15 @@
+from tkinter import *
+root=Tk()
+miframe=Frame(root, width=500, height=400)
+miframe.pack()
+#miframe.config(bg="red")
+milabel=Label(miframe, text="Ingrese Usuario: ")
+#milabel.pack()  # Establece que el objeto "label" esta contenido dentro del objeto "root" sin embargo redimenciona el objeto "root" al tamaño de losa objetos que contiene
+milabel.place(x=100, y=100) #Reemplazamos el metodo "pack" por el metodo "place" que nos permite asignar coordenadas de ubicacion del objeto milabel dentro de su contenedor ("root")
+Label(miframe, text="Ingrese contraseña: ").place(x=100, y=120)
+Label(miframe, text="Ingrese Modulo-Area: ", fg="blue", font=("Comic Sans MS", 18)).place(x=100, y=150)
+miimagen=PhotoImage(file="python.gif")
+Label(miframe, image=miimagen).place(x=100, y=180)
+root.iconbitmap("icono.ico")
+root.title("Probanto el objeto Label")
+root.mainloop()
