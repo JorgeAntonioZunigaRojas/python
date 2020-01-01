@@ -10,7 +10,7 @@ screen.config(bg="black", fg="#03f943", justify="right")
 
 #--> Functions 1 <--------------------------------------------------------
 def numeroPulsado(numero):
-    numberScreen.set(numberScreen.get() + numero)
+    numberScreen.set(numero)
 #--> BOTONES 1 <--------------------------------------------------------
 boton7=Button(container, text="7", width=3, command=lambda:numeroPulsado("7"))
 boton8=Button(container, text="8", width=3, command=lambda:numeroPulsado("8"))
