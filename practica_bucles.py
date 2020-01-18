@@ -1,3 +1,7 @@
+from flask import Flask
+from flask_mysqldb import MySQL
+
+
 '''
 for i in ["Peru", "Ecuador", "Chile", "Bolivia", "Brasil"]:
     print(i)
